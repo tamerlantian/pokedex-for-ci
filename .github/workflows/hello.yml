@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: My first github action
         run: echo "Hello world"
+      - name: Display date
+        run: date
+      - name: Display files
+        run: ls -l
